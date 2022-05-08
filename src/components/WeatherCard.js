@@ -3,6 +3,7 @@ import CommentBox from "./CommentBox";
 
 export default class WeatherCard extends Component {
   render() {
+    // receiving props
     let {
       temp_value,
       location,
@@ -19,9 +20,9 @@ export default class WeatherCard extends Component {
 
     return (
       <>
-        <div className="d-flex justify-content-center container" >
+        <div className="d-flex justify-content-center container">
           <div className="card  " style={{ width: "750px", height: "auto" }}>
-            <div>
+            <div style={{ marginLeft: "10px", marginTop: "10px" }}>
               <p>
                 {location}, {country},{" "}
                 {new Date().toLocaleString("en-US", { weekday: "short" })}{" "}
@@ -84,6 +85,7 @@ export default class WeatherCard extends Component {
           </div>
         </div>
         <br />
+        {/* Comment area */}
         <CommentBox />
         <br />
       </>

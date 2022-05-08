@@ -6,7 +6,7 @@ class SearchBox extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cityName: null,
+      cityName: "",
     };
     this.handleSearchInput = this.handleSearchInput.bind(this);
   }
@@ -15,7 +15,6 @@ class SearchBox extends Component {
   }
 
   handleSearchInput() {
-    console.log("handleSearchInput fired");
     this.props.searchCity(this.state.cityName);
   }
   render() {

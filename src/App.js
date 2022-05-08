@@ -53,6 +53,7 @@ class App extends React.Component {
             DataisLoaded: false,
           });
         } else if (response.cod === 200) {
+          console.log(response);
           that.setState({
             main_content_: response.main,
             temp_value_: parseFloat(response.main.temp).toFixed(2),
@@ -110,14 +111,16 @@ class App extends React.Component {
       );
 
     return (
-      <div style={{ backgroundColor: "#e4e3e3", height: "100vh" }}>
-        <NavBar />
-        <br />
-        <SearchBox searchCity={this.searchCity} />
-        <br />
-        {ErrorData}
-        {ValidData}
-      </div>
+      <>
+        <div style={{ backgroundColor: "#e4e3e3" }}>
+          <NavBar />
+          <br />
+          <SearchBox searchCity={this.searchCity} />
+          <br />
+          {ErrorData}
+          {ValidData}
+        </div>
+      </>
     );
   }
 }
