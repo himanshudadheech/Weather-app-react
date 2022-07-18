@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/himanshudadheech/Weather-app-react/static/css/main.4c31499a.css",
+    "main.js": "/himanshudadheech/Weather-app-react/static/js/main.4bafa8e9.js",
+    "static/media/bootstrap-icons.woff?": "/himanshudadheech/Weather-app-react/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/himanshudadheech/Weather-app-react/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "index.html": "/himanshudadheech/Weather-app-react/index.html",
+    "main.4c31499a.css.map": "/himanshudadheech/Weather-app-react/static/css/main.4c31499a.css.map",
+    "main.4bafa8e9.js.map": "/himanshudadheech/Weather-app-react/static/js/main.4bafa8e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c31499a.css",
+    "static/js/main.4bafa8e9.js"
+  ]
+}
